@@ -1,0 +1,242 @@
+/* --- STYLES FOR ALL PAGES --- */
+body {
+    /* Typography */
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+  
+    /* Visual */
+    /* background-image: url("../imgs/wood.jpg"); */
+  }
+  
+  html {
+    /* Positioning */
+    position: relative;
+  
+    /* Box-model */
+    min-height: 100%;
+  }
+  
+  /* add space for fixed nav */
+  main {
+    margin: 80px 0;
+  }
+  
+  
+  /* create styles for use for all white main boxes */
+  .block {
+    background-color: rgb(238, 158, 10);
+  
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .block-header {
+    /* Typography */
+    color: rgba(0,0,0,.5);
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+    font-weight: bold;
+  }
+  
+  /* NAV START */
+  #logo {
+    color: rgba(0,0,0,.5);
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+  
+  }
+  
+  /* override bootstrap hover color and border */
+  .navbar-nav > li > a:hover {
+    color: rgba(0,0,0,.5);
+  }
+  
+  #contact-info {
+    font-size: 24px;
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+    color: rgba(0,0,0,.5);
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: grey;
+    color: rgba(0,0,0,.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+  }
+  .nav-link{
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+    font-size: 28px;
+    color: rgba(0,0,0,.5);
+  }
+  
+  p {
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+    font-size: 24px;
+    color: rgba(0,0,0,.5);
+    text-align: justify;
+    text-justify: inter-word;
+    
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 50%;
+  }
+  
+  .text-muted {
+    color: white!important;
+  }
+  
+  .bg-light {
+    background-color: rgb(238, 158, 10)!important;
+  }
+  .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: rgb(238, 158, 10);
+  }
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+  .btn-link {
+    font-weight: 600;
+    color: rgb(238, 158, 10);
+    background-color: transparent;
+    font-size: x-large;
+  }
+  
+  /* media query for nav background color change */
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color:rgb(238, 158, 10);
+    }
+  }
+  /* END NAV */
+  
+  
+  /* CONNECT W/ ME CSS */
+  .connect-header {
+    /* Typography */
+    font-size: 25px;
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+  }
+  
+  .connect-photo {
+    /* Box-model */
+    width: 55px;
+    height: 55px;
+  }
+  
+  #images {
+    /* Box-model */
+    padding-top: 15px;
+  
+    /* Typography */
+    text-align: center;
+  }
+  /* END CONNECT W/ ME */
+  
+  
+  /* BEGIN FOOTER */
+  .footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color: #666;
+    color: white;
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: white;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: rgba(0,0,0,.5);
+  }
+  /* END FOOTER */
+  /* --- END STYLES FOR ALL PAGES --- */
+  
+  /* --- PAGE-SPECIFIC STYLES --- */
+  /* ABOUT-ME PAGE */
+  .about-me-header {
+    /* Positioning */
+    margin-bottom: 33px;
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+  
+    /* Typography */
+    font-size: 32px;
+    font-weight: bold;
+    color:  rgba(0,0,0,.5);
+  }
+  
+  #about-self-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 200px;
+    margin: 0 20px 10px 0;
+  }
+  /* END ABOUT-ME PAGE */
+  
+  
+  /* PORTFOLIO PAGE */
+  .port-image {
+    margin: 20px auto;
+  }
+  /* END PORTFOLIO PAGE */
+  
+  
+  /* CONTACT FORM PAGE  */
+  .form-control {
+    /* give input boxes right angles */
+    border-radius: 0;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+    /* Box-model */
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Montserrat', 'Questrial','Rajdhani',sans-serif;
+    /* Typography */
+    color: #fff;
+  
+    /* Visual */
+    background-color: rgba(0,0,0,.5);
+    border: 0;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
+  
+  /* END CONTACT FORM PAGE */
